@@ -12,25 +12,6 @@ You can record a start and stop time, assign a quality rating, and clear the dat
 In this codelab you will learn how to use a RecyclerView in your Android Kotlin app
 to efficiently display lists of items.
 
-
-Pre-requisites
---------------
-
-You should be familiar with:
-
-* Building a basic user interface (UI) using an activity, fragments, and views.
-* Navigating between fragments, and using safeArgs to pass data between fragments.
-* Using view models, view model factories, transformations, and LiveData and their observers.
-* Creating a Room database, creating a DAO, and defining entities.
-* Using coroutines for database tasks and other long-running tasks.
-
-
-
-Getting Started
----------------
-
-1. Download and run the app.
-
 License
 -------
 
@@ -50,4 +31,8 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+
+Disclaimer:
+------------
+I only built on top of an existing app following a code lab and then explored further.  
 
