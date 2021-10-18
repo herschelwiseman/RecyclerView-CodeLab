@@ -43,6 +43,11 @@ class SleepTrackerViewModel(
 
     val nights = database.getAllNights()
 
+    private val _navigateToSleepDetail = MutableLiveData<Long>()
+
+    val navigateToSleepDetail
+        get() = _navigateToSleepDetail
+
     /**
      * Converted nights to Spanned for displaying.
      */
@@ -204,4 +209,14 @@ class SleepTrackerViewModel(
             _showSnackbarEvent.value = true
         }
     }
+
+    fun onSleepNightClicked(id: Long) {
+        _navigateToSleepDetail.value = id
+    }
+
+    fun onSleepDetailNavigated() {
+        _navigateToSleepDetail.value = null
+    }
+
+
 }
